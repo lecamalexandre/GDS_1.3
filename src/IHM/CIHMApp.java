@@ -140,22 +140,7 @@ public class CIHMApp extends JFrame {
         }
         
         
-        private JPanel buildConteneur2(){  
-            conteneur = new JPanel();
-            
-            conteneur.setLayout(cardLayout);
-            conteneur.add(this.vueEnCours,position[0]);
-            conteneur.add(ihmStages, position[1]);
-            conteneur.add(ihmStagiaires, position[2]);
-            conteneur.add(ihmEntreprises,position[3]);
-            conteneur.add(ihmFormateur, position[4]);
 
-            this.getContentPane().add(menu, BorderLayout.NORTH);
-            this.getContentPane().add(conteneur, BorderLayout.CENTER);
-            this.setVisible(true);
-            
-            return conteneur;
-        }
  } 
        
 
