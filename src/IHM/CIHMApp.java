@@ -139,9 +139,6 @@ public class CIHMApp extends JFrame {
             return conteneur;
         }
         
-        change
-                toto tata titi
-
  } 
        
 
